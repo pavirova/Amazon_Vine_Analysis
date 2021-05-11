@@ -17,4 +17,6 @@ This analysis consisted of using PySpark along with Google Collab and Amazon Web
 
 ![Resources/percentreviews.png](Resources/percentreviews.png)
 
-## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+## Summary
+
+As can be seen from the percentage of 5 star reviews above, the percentage of Vine 5 star reviews is 0, whereas the percentage of non-vine reviews is 63.7%, meaning there is no positivity bias for reviews in the Vine program. Another analysis that can be done with the dataset is to use the describe() method to look at the summary statistics of the dataset to further analyze the mean, min, max, and standard deviation of the music reviews.
