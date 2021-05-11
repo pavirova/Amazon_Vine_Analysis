@@ -1,11 +1,20 @@
 # Amazon_Vine_Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview 
+This analysis consisted of using PySpark along with Google Collab and Amazon Web Services(AWS) to perform an ETL on a music dataset where we extract, transform and connect the data to an AWS RDS instance to load the transformed data into a PGAdmin database where we can then use PySpark to perform calculations on Amazon Vine music reviews.
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+## Results
 
 - How many Vine reviews and non-Vine reviews were there?
+
+![totalreviews.png](totalreviews.png)
+
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
+![5starreviews.png](5starreviews.png)
+
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+![percentreviews.png](percentreviews.png)
 
 ## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
